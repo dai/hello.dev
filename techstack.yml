@@ -1,0 +1,64 @@
+repo_name: dai/hello.dev
+report_id: 9b972849791b765773ae9fb22fd9d260
+repo_type: Public
+timestamp: '2023-11-10T09:00:50+00:00'
+requested_by: audreyt
+provider: github
+branch: main
+detected_tools_count: 5
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/sync.yml"
+  last_updated_by: rohanharikr
+  last_updated_on: 2022-04-18 22:13:32.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: rohanharikr
+  last_updated_on: 2022-04-18 22:13:32.000000000 Z
+- name: VuePress
+  description: A static-site generator built by the Vue.js team
+  website_url: https://vuepress.vuejs.org/
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/8863/paeckCWC.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: rohanharikr
+  last_updated_on: 2022-04-18 22:13:32.000000000 Z
